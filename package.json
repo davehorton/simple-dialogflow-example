@@ -1,0 +1,20 @@
+{
+  "name": "simple-ivr-record",
+  "version": "1.0.0",
+  "description": "Simple app to record caller voice to a file",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dave Horton",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^0.3.0",
+    "config": "^2.0.1",
+    "drachtio-fsmrf": "^1.2.5",
+    "drachtio-srf": "^4.3.5",
+    "fs-extra": "^7.0.0",
+    "pino": "^5.4.0",
+    "sha256": "^0.2.0"
+  }
+}
